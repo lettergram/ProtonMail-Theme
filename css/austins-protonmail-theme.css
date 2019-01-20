@@ -1,0 +1,47 @@
+#pm_view {
+  min-width:70%;
+}
+#conversation-list-columns{
+  border-right:none;
+  background:#F7F6F6;
+  max-width:30%;
+}
+#conversation-view{
+  min-width:68%;
+}
+
+/* Conversation List Style */
+.conversation{
+  background:#F8EFFB;
+  border-color: #FFFFFF;
+  border-width: thin;
+}
+.conversation.read{
+  background:#DDDDDD;
+  border-color:#DDDDDD;
+  border-width:none;
+}
+.conversation.marked{
+  z-index:1;
+  font-size:1.1em;
+  font-weight:bold;
+  border-color: #9ECAED;
+  border-width: thin;
+  box-shadow: 0em 0.1em 0.3em #9ECAED, 0em -0.1em 0.3em #9ECAED
+}
+.conversation.selected{
+  outline: none;
+  border-color: #9ECAED;
+  box-shadow: 0 0 10px #9ECAED;
+}
+.conversation.active{
+  z-index:2;
+  background:#F1FAED;
+  border-color: #F8EFFB;
+  color:#000000;
+  font-size:1.2em;
+  font-weight:bold;
+  outline: none;
+  border-color: #9ECAED;
+  box-shadow: 0em 0.3em 0.8em #9ECAED, 0em -0.3em 0.8em #9ECAED
+}
