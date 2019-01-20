@@ -13,16 +13,16 @@ Within the `css/` folder you will find my theme. Images below as well.
 
 *Updated Conversations Column:*
 
-![Tray ProtonMail](imgs/pronmail-tray.png)
+![Tray ProtonMail](imgs/protonmail-tray.png)
 
 ### Updated Marking 
 
-![protonmail marking](imgs/pronmail-marked.png)
+![protonmail marking](imgs/protonmail-marked.png)
 
 ### Updated multi-selecting
 
-![protonmail selecting](imgs/pronmail-multi-select.png)
+![protonmail selecting](imgs/protonmail-multi-select.png)
 
 ### Updated Active Conversation
 
-![protonmail Active Conversation](imgs/pronmail-active-conversation.png)
+![protonmail Active Conversation](imgs/protonmail-active-conversation.png)
