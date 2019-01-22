@@ -26,11 +26,13 @@
   font-size:1.1em;
   font-weight:bold;
   border-color: #9ECAED;
-  border-width: thin;
+  border-width: thick;
   box-shadow: 0em 0.1em 0.3em #9ECAED, 0em -0.1em 0.3em #9ECAED
 }
 .conversation.selected{
   outline: none;
+  margin: 0.2em 0 0.2em 0;
+  background-color: #eee;
   border-color: #9ECAED;
   box-shadow: 0 0 10px #9ECAED;
 }
@@ -43,5 +45,16 @@
   font-weight:bold;
   outline: none;
   border-color: #9ECAED;
-  box-shadow: 0em 0.3em 0.8em #9ECAED, 0em -0.3em 0.8em #9ECAED
+  box-shadow: 0em 0.3em 0.8em #9ECAED, 0em -0.3em 0.8em #9ECAED;
+}
+
+/* Ensure stars are nice and bright */
+.starButton-unstar.fa.fa-star {
+  font-size:1.1em;
+  color: #FCE358;
+  text-shadow: 0 0 0.2em #000;
+}
+.starButton-unstar.fa.fa-star:hover {
+  color:#FCF0AB;
+  text-shadow: 0 0.2em 0.4em #000;
 }
